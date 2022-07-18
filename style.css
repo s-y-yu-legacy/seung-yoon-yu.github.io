@@ -29,10 +29,6 @@ li {
     list-style-type: none;
 }
 
-.form__container {}
-
-.form__input--wrapper {}
-
 .form__input--name {
     margin-top: 2rem;
 }
@@ -162,4 +158,20 @@ li {
     font-size: 0.85rem;
     text-align: right;
     color: #aaa;
+}
+
+.pagination {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pagination__pagenum {
+    text-align: center;
+}
+
+.pagination__pagenum--num {
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
